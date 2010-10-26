@@ -48,13 +48,67 @@ h3. 23/10/2010 - Primeira Semana
 	@END_STR@
 	@puts var1@
   	
-	*9) * Gets e Chomp
+	*9)* Gets e Chomp: Recebe e Remove caracter de retorno de carro (\n).
+
+	@puts "Qual sua cidade ?"@
+	@STDOUT.flush@  ==> Limpa o buffer de saída (vídeo)
+	@city = gets.chomp@ ==> O conteúdo digitado, sem caracter \n (retorno de carro)
+	@puts "Minha cidade é " + city @
+
+	*10)* Formatando Casas Decimais
+	@puts 35 / 1.5@ ==> 23.333333333333332
+	@puts format("%.2f", 35 / 1.5)@ ==> 23.33
+   
+	
+	*11)* Ruby é dinamico
+	
+Variável não tem que ser definida antes, ela identifica o seu tipo pelo tipo de informação.
+	@x = 7@		==> integer
+	@x = "house"@	==> string
+	@x = 7.5@	==> float
+
+Em Ruby qualquer coisa pode ser manipulada como objeto.
+	@"I love Ruby".length@	==> 11 caracteres 	
+
+
+	*12)* Métodos em Ruby
+
+	Método Simples:
+	@def diga_oi@
+		@"Hello !"@ 
+	@end@
+	#usando o metodo
+	puts diga_oi
+
+	Método com 1 parâmetro:
+	@def diga_oi(nome)@
+		@"Hello ! " + nome@
+	@end@
+	puts diga_oi("Roberta")
+	*O uso do parenteses é opcional
 
 
 
 
 
+
+
+
+
+
+
+
+	*12)* Primeiro Caracter de um nome Ruby pode identifica seu uso. 
  
+	Variáveis de Instância = nomes iniciam com @
+	Variáveis de Classe    = nomes inicial com @@
+	Variáveis Globais      = nomes iniciam com $
+	Constantes             = Nomes Iniciam MAIUSCULO
+	Métodos                = nomes iniciam minusculo 
+
+
+
+	
 
 
 
