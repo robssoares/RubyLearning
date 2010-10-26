@@ -1,0 +1,87 @@
+h2. ACOMPANHAMENTO DO CURSO RUBYLEARNING.ORG
+
+*23/10/2010* - Primeira Semana
+
+- Ruby Coding Style / Convention
+  - Unofficial Ruby Usage Guide
+  - Ruby 101: Naming Conventions
+  - Ruby Coding Convention
+
+- Link: The Philosophi of Ruby
+  - Conversa com Yukihiro Matsumoto 
+
+- FORPC101 Course Ruby Programs
+  - Excercicios em Ruby 
+	- puts "hello"
+
+	- puts 3 / 2     => Divisão de Inteiros, resultado é Inteiro.
+
+	- puts 1.5 / 2.6 => Divisão de Decimais, resultado é Decimal.
+
+	- Para exibir algum caracterer que seja um comando, usamos a Barra(\) como escape, ex:
+	puts "Essa é a gota d\'agua" ==> É necessário a barra para informar que o caracter (') deve ser exibido e não executado.
+
+	- Diferença entre Aspas Simples (') e Aspas Duplas (")
+		Ambas podem ser utilizadas, porém em alguns casos tem resultados diferentes, como na interpolação: 
+	PI = 3.1416 
+	puts "O número é #{PI}" ==> O número é 3.1416
+	puts 'O número é #{PI}' ==> o número é #{PI}
+ 
+	- Conversão de caracteres: 
+	var1 = 5    ==> numero
+	var2 = '2'  ==> string
+	puts var1 + var2 	==> errado, número com string não calcula
+	puts var1 + var2.to_i 	==> certo, string convertida em inteiro
+
+	- Anexando informações à string
+	a = 'hello'  
+	a << ' word.'  ==> inseriu informação à variavel. 
+	puts a  ==> hello word. 
+	 
+
+	- Delimitador de Conteúdo: o simbolo << também pode marcar o início de uma sequência de caracteres, utilizando um delimitador de sua escolha. A sequencia inicia a partir da próxima linha e termina quando o delimitador é repedito novamente. Exemplo:
+	var1 = <<END_STR
+	Este é o conteudo desta variavel, podemos escrever até
+	em outra linha, até encontrar o delimitador, o mesmo 
+	usado no inicio.
+	END_STR
+	puts var1
+  	
+	- Gets e Chomp
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+	
+	 
+
+
+
+
+
+
+  
+
+- Week 1: Tutorial
+
+- How to use IRB
+
+- Some useful Ruby Methods
+
+- Week 1: Exercises
+
+- Week 1: Forum
+
+- Week 1: Quiz
