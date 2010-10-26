@@ -53,7 +53,7 @@ h3. 23/10/2010 - Primeira Semana
 	@puts "Qual sua cidade ?"@
 	@STDOUT.flush@  ==> Limpa o buffer de saída (vídeo)
 	@city = gets.chomp@ ==> O conteúdo digitado, sem caracter \n (retorno de carro)
-	@puts "Minha cidade é " + city @
+	@puts "Minha cidade é " + city@
 
 	*10)* Formatando Casas Decimais
 	@puts 35 / 1.5@ ==> 23.333333333333332
@@ -86,6 +86,55 @@ Em Ruby qualquer coisa pode ser manipulada como objeto.
 	@end@
 	puts diga_oi("Roberta")
 	*O uso do parenteses é opcional
+
+
+	*13)* Comando Alias é utilizado para criar uma cópia do método com outro nome.
+	
+	Sintaxe: @alias new_name old_name@
+
+	@def oldmtd@
+	@"metodo antigo"@
+	@end@
+
+	@alias newmtd oldmtd@
+
+	@def oldmtd@
+	@"método antigo modificado"@
+	@end@
+
+	@puts oldmtd@ ==> método antigo modificado
+	@puts newmtd@ ==> método antigo
+
+
+	*14)* Comparação de Variáveis
+
+	@s1 = 'Mario'@ 
+	@s2 = 'Mario'@
+	@s3 = s2@
+
+	@s1 == s2@ ==> true, comparação de conteúdo
+	@s1.eql?(s2)@ ==> true, comparação de conteúdo
+        @s1.equal?(s2)@ ==> false, compara se as duas referências apontam para o mesmo objeto.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -137,6 +186,6 @@ Em Ruby qualquer coisa pode ser manipulada como objeto.
 
 - Week 1: Exercises
 
-- Week 1: Forum
+- Wando Interpolaçãoek 1: Forum
 
 - Week 1: Quiz
