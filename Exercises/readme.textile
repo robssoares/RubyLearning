@@ -1,20 +1,20 @@
 h3. Exercises - Week 01
 
-%{color:blue} Try and write your code with whatever Ruby we have learned so far. %
+%{color:blue}Try and write your code with whatever Ruby we have learned so far. %
 Experimente e escreva seu código Ruby com o que aprendemos até agora.
 
-%{color:blue} Please discuss all these exercises in the relevant thread in the Lesson 1 Forum. %
+%{color:blue}Please discuss all these exercises in the relevant thread in the Lesson 1 Forum. %
 Por favor, discutir todos estes exercícios no segmento relevante na Lição 1 Fórum
 
 
 
 
-%{color:blue} Exercise1. Before executing the code given below, guess the results. Next, execute the code. Did you get it right? If you did not get it right, can you think of why? %
+%{color:blue}Exercise1. Before executing the code given below, guess the results. Next, execute the code. Did you get it right? If you did not get it right, can you think of why? %
 Exercise1. Antes de executar o código abaixo, acho que os resultados. Em seguida, executar o código. Você quis fazer isso certo? Se você não acertar, você pode pensar em quê?
 
 
-%{color:blue} Discuss your first guess and what you got when running the code. %
-%{color:blue} Goal: Understanding operator precedence and association. %
+%{color:blue}Discuss your first guess and what you got when running the code. %
+%{color:blue}Goal: Understanding operator precedence and association. %
 Discutir acho que o seu primeiro e que você tem ao executar o código.
 Objetivo: Compreender a precedência do operador e de associação.
 
@@ -33,7 +33,7 @@ Objetivo: Compreender a precedência do operador e de associação.
 (x recebe verdadeiro pela analise entre os dois valores)
 
 
-%{color:blue} Exercise2. Read the sprintf documentation and the % documentation in the String class and figure out the output being printed by of this Ruby code.%
+%{color:blue}Exercise2. Read the sprintf documentation and the % documentation in the String class and figure out the output being printed by of this Ruby code.%
 Exercise2. Leia a documentação sprintf ea documentação% na classe String e descobrir a saída que está sendo impresso pela deste código Ruby.
 
 @puts "%05d" % 123@
@@ -41,8 +41,8 @@ Exercise2. Leia a documentação sprintf ea documentação% na classe String e desco
 
 
 
-%{color:blue} Exercise3. Write a Ruby program that displays how old I am, if I am 979000000 seconds old. Display the result as a floating point (decimal) number to two decimal places (for example, 17.23).%
-%{color:blue} Note: To format the output to say 2 decimal places, we can use the Kernel's format method. For example, if x = 45.5678 then format("%.2f", x) will return the string 45.57 %
+%{color:blue}Exercise3. Write a Ruby program that displays how old I am, if I am 979000000 seconds old. Display the result as a floating point (decimal) number to two decimal places (for example, 17.23).%
+%{color:blue}Note: To format the output to say 2 decimal places, we can use the Kernel's format method. For example, if x = 45.5678 then format("%.2f", x) will return the string 45.57 %
 
 Esforço3. Escreva um programa Ruby que exibe quantos anos eu tenho, se eu sou 979000000 segundo idade. Mostrar o resultado em um número de ponto flutuante (decimal), com duas casas decimais (por exemplo, 17,23).
 Observação: Para formatar a saída de dizer duas casas decimais, podemos utilizar o método do kernel formato. Por exemplo, se x = 45,5678, então o formato ("% .2 f", x) irá retornar a string 45,57
@@ -50,12 +50,12 @@ Observação: Para formatar a saída de dizer duas casas decimais, podemos utilizar
 
 
 
-%{color:blue} Exercise4. Write a Ruby program that tells you how many minutes there are in a year (do not bother right now about leap years etc.).%
+%{color:blue}Exercise4. Write a Ruby program that tells you how many minutes there are in a year (do not bother right now about leap years etc.).%
 Exercício4. Escreva um programa Ruby que informa quantos minutos há em um ano (não se incomode agora sobre os anos bissextos, etc.)
 
 
 
-%{color:blue} Exercise5. The following program prints the value of the variable. Why? %
+%{color:blue}Exercise5. The following program prints the value of the variable. Why? %
 Exercício5. O programa a seguir imprime o valor da variável. Por quê?
 
 @my_string = 'Hello Ruby World'@
@@ -66,10 +66,10 @@ Exercício5. O programa a seguir imprime o valor da variável. Por quê?
 
 
 
-%{color:blue} Exercise6. Write a method called convert that takes one argument which is a temperature in degrees Fahrenheit. This method should return the temperature in degrees Celsius. 
+%{color:blue}Exercise6. Write a method called convert that takes one argument which is a temperature in degrees Fahrenheit. This method should return the temperature in degrees Celsius. 
 To format the output to say 2 decimal places, we can use the Kernel's format method. For example, if x = 45.5678 then format("%.2f", x) will return the string 45.57. Another way is to use the round function as follows: %
 @puts (x*100).round/100.0@
-%{color:blue} Discuss these exercises in the Week 1 Forum.%
+%{color:blue}Discuss these exercises in the Week 1 Forum.%
 
 Exercício6. Escrever um método chamado converter que tem um argumento que é uma temperatura em graus Fahrenheit. Este método deve retornar a temperatura em graus Celsius.
 Para formatar a saída com duas casas decimais, podemos utilizar o método do kernel formato. Por exemplo, se x = 45,5678, então o formato ("% .2 f", x) irá retornar a string 45,57. Outra maneira é usar a função round como segue:
