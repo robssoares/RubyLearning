@@ -117,48 +117,13 @@ Em Ruby qualquer coisa pode ser manipulada como objeto.
         @s1.equal?(s2)@ ==> false, compara se as duas referências apontam para o mesmo objeto.
 	
 
+=======	
 
+QUIZZZZZZ
 
+WEEK 01:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	*12)* Primeiro Caracter de um nome Ruby pode identifica seu uso. 
- 
-	Variáveis de Instância = nomes iniciam com @
-	Variáveis de Classe    = nomes inicial com @@
-	Variáveis Globais      = nomes iniciam com $
-	Constantes             = Nomes Iniciam MAIUSCULO
-	Métodos                = nomes iniciam minusculo 
-
-
-
-	
-
+1) 
 
 
 
