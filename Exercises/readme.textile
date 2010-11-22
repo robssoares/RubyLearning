@@ -1,20 +1,20 @@
 h3. Exercises - Week 01
 
-%{color:blue}Try and write your code with whatever Ruby we have learned so far. %
++Try and write your code with whatever Ruby we have learned so far.+
 Experimente e escreva seu código Ruby com o que aprendemos até agora.
 
-%{color:blue}Please discuss all these exercises in the relevant thread in the Lesson 1 Forum. %
++Please discuss all these exercises in the relevant thread in the Lesson 1 Forum.+
 Por favor, discutir todos estes exercícios no segmento relevante na Lição 1 Fórum
 
 
 
 
-%{color:blue}Exercise1. Before executing the code given below, guess the results. Next, execute the code. Did you get it right? If you did not get it right, can you think of why? %
++Exercise1. Before executing the code given below, guess the results. Next, execute the code. Did you get it right? If you did not get it right, can you think of why?+
 Exercise1. Antes de executar o código abaixo, acho que os resultados. Em seguida, executar o código. Você quis fazer isso certo? Se você não acertar, você pode pensar em quê?
 
 
-%{color:blue}Discuss your first guess and what you got when running the code. %
-%{color:blue}Goal: Understanding operator precedence and association. %
++Discuss your first guess and what you got when running the code.+
++Goal: Understanding operator precedence and association.+
 Discutir acho que o seu primeiro e que você tem ao executar o código.
 Objetivo: Compreender a precedência do operador e de associação.
 
